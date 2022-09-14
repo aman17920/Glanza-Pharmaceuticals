@@ -1,0 +1,512 @@
+
+.contact-info{
+    display: flex;
+    list-style: none;
+    /* margin-right: 35px; */
+    width: 473px;
+    justify-content: space-between;
+}
+.menu-social-container ul{
+    display: flex;
+    list-style: none;
+    width: 141px;
+    justify-content: space-between;
+}
+.hdrtpRow{
+    margin-block: 0px;
+}
+
+.logoImg{
+    width: 20%;
+}
+.navitem{
+    display: flex;
+    justify-content: flex-end;
+}
+.carousel-bg{
+    background-image: url("/images/bg-lab-1.jpg");
+    height: 600px;
+    background-size: cover;
+    border-radius: 23px;
+    background-position: center;
+}
+.welcome-card{
+display: flex;
+}
+.Welcome-text{
+    font-family: 'PT Sans', sans-serif;
+    color: #1dade1;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-block: 30px;
+}
+.welcome-content p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    font-size: 17px;
+    text-align: justify;
+}
+.CORE-card-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #0B132B;
+
+    padding: 19px 31px 12px 31px;
+}
+.CORE-card-TEXT{
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    padding-inline: 8px;
+    text-align-last: auto;
+}
+.core-card{
+    border: solid #e3e3e3 2px;
+    display: flex;
+    height: 555px;
+    align-items: center;
+    padding-inline: 16px;
+    padding-block: 30px;
+    border-radius: 24px;
+    flex-direction: column;
+}
+.third-party-heading{
+    font-family: 'PT Sans', sans-serif;
+    color: #1dade1;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0px !important;
+    margin-block: 26px;
+}
+.third-party-text{
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 29px;
+    padding-inline: 8px;
+    text-align: left;
+}
+.mt{
+    margin-top: 40px;
+}
+.prduct-range-heading{
+    font-family: 'PT Sans', sans-serif;
+    color: #1dade1;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0px !important;
+    text-align: center;
+    margin-block: 40px;
+}
+.PRODUCT-RANGE-card{
+
+padding-inline: 27px;
+
+background-color: #fff;
+
+padding-block: 20px;
+
+border-radius: 10px;
+
+box-shadow: wheat;
+
+box-shadow: 13px 10px 23px rgb(156 156 156 / 25%);
+
+border-radius: 20px;
+}
+.our-product-range{
+    background-color: #F9F9F9;
+    padding-block: 50px;
+}
+.PRODUCT-RANGE-card ul {
+    padding-left: 20px;
+}
+.Tablets-text{
+    margin-block: 12px !important;
+    font-family: 'PT Sans', sans-serif;
+    color: #1dade1;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-block: 30px;
+}
+.certified-manufacturing-heading{
+    font-family: 'PT Sans', sans-serif;
+    color: #1dade1;
+    font-size: 24px;
+    margin-top: 0px !important;
+    font-weight: 700;
+    text-align: center;
+    margin-block: 30px;
+}
+.card-heading{
+    font-family: 'PT Sans', sans-serif;
+    color: #1dade1;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-block: 7px;
+}
+.card-text{
+    font-family: 'PT Sans', sans-serif;
+    color: #1dade1;
+    font-size: 24px;
+    margin-top: 0px !important;
+    font-weight: 700;
+    text-align: center;
+    margin-block: 30px;
+}
+.certified-manufacturing-heading p{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-div{
+    padding-bottom: 1.25rem;
+    padding-right: 0.625rem;
+}
+.form-control{
+    padding: 1.15625rem 1.75rem;
+    font-family: "Roboto", Sans-serif;
+    border-radius: 33px;
+    border: solid #f0f0f0 2px;
+    border-style: solid;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn{
+
+    border-radius: 33px;
+    font-family: Roboto ;
+font-size: 15px;
+font-weight: 400;
+padding-inline: 36px;
+padding-block: 20px;
+border: 0px;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+letter-spacing: 0.1em;
+background-color: #1dade1;
+}
+.STRENGTH-text{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-inline: 254px;
+    text-align: center;
+}
+.contactUse-heading{
+    font-family: 'PT Sans', sans-serif;
+    color: #184363;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 9px !important;
+    text-align: center;
+    margin-block: 30px;
+}
+.contactUse-text{
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #184363;
+    margin-bottom: 30px !important;
+}
+.contact-card{
+    text-align: center;
+    padding-top: 48px !important;
+    padding-bottom: 56px !important;
+    background: #b5e4f6 url(https://enovathemes.com/propharm/wp-content/uploads/row_big_1.jpg?id=2513) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-image: url("/html/images/row_big_1.jpg");
+}
+.Subscribe-btn{
+    padding: 20px 32px !important;
+    font-size: 14px;
+    margin: 0;
+    min-width: 0;
+    font-family: "Roboto", Sans-serif;
+    width: inherit;
+    height: inherit;
+    color: #fff;
+    border: none !important;
+    position: relative;
+    border-radius: 0 48px 48px 0 !important;
+    background-color: #1dade1;
+}
+.SubscribeInpute{
+    font-family: "Roboto", Sans-serif;
+    padding: 19px 32px !important;
+    border-radius: 48px 0px 0px 48px !important;
+    border: 0px;
+    background-color: #fff;
+    margin-right: -5px;
+    width: 34%;
+}   
+.company-achieve-heading{
+    font-family: "Roboto", Sans-serif;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
+.company-achieve-text{
+    font-family: "Roboto", Sans-serif;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0px !important;
+}
+.company-card{
+    background: linear-gradient(299deg, #005AA7 , #f5f0b1 );
+    padding-block: 40px;
+}
+.company-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #ecf3f7;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #009ee3;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #0B132B;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #454545;
+  margin-top: 16px;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    background-color: #3B5998 !important;
+    line-height: 38px;
+    border-radius: 50%;
+}
+.twitter-bg{
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    background: #55ACEE !important;
+}
+.google-bg{
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    background: #DD4B39 !important;
+}
+.footer-widget-heading h3 {
+  color: #009ee3;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #009ee3;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #424242;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  color: #fff;
+  border-radius: 50px;
+}
+.subscribe-form button {
+    position: absolute;
+    border-radius: 0px 23px 23px 0px;
+    right: 0;
+    background: #0f0f0f;
+    padding: 13px 20px;
+    border: 0px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #ffffff;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}    
+
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    color: #016b9a;
+}
+.fa-phone:before {
+    content: "\f095";
+    color: #016b9a;
+}
+.fa-envelope-open:before {
+    content: "\f2b6";
+    color: #016b9a;
+}
+.topdetail {
+    background-color: #ecf3f7;
+    padding-block: 12px;
+}
+.menu-social li a {
+    color: #fff !important;
+}
+.menu-social-container a{
+    text-decoration: none;
+}
+.fltRight{
+    float: right!important;
+}
+section.sliderMain {
+    position: relative;
+}
+.headernavbar{
+    margin-block: 15px;
+    border-bottom: solid #a0a0a0 0.08px;
+    margin-bottom: 10px;
+}
+.mr{
+ margin-right: 6px;
+}
+.navbar-light .navbar-nav .nav-link{color: rgba(0,0,0,.55) !important;font-weight: 500;padding-inline: 15px;}
+
+.footer-widget-heading ul{
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+.formfooter{
+margin-right: 30px;
+}
+.CERTIFIED ul
+{
+    margin-left: 18px !important;
+}
