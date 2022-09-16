@@ -11,6 +11,7 @@
   list-style: none;
   width: 141px;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .hdrtpRow {
@@ -41,6 +42,7 @@
 .Welcome-text {
   font-family: "PT Sans", sans-serif;
   color: #1dade1;
+  margin-top: 0px !important;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -118,14 +120,14 @@
 }
 
 .PRODUCT-RANGE-card {
-  padding-inline: 27px;
+  padding-inline: 19px;
   background-color: #fff;
   padding-block: 20px;
   border-radius: 10px;
   box-shadow: wheat;
   box-shadow: 13px 10px 23px rgb(156 156 156 / 25%);
   border-radius: 20px;
-  height: 394px;
+  height: 543px !important;
 }
 
 .our-product-range {
@@ -244,9 +246,12 @@
   text-align: center;
   margin-block: 30px;
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
   color: rgb(0 158 227);
 }
+
 .contactUse-text {
   font-family: "Roboto", Sans-serif;
   font-size: 14px;
@@ -260,10 +265,10 @@
   text-align: center;
   padding-top: 48px !important;
   padding-bottom: 56px !important;
-  background: #b5e4f6 !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  background-image: url("../images/row_big_1.jpg");
 }
 
 .Subscribe-btn {
@@ -538,7 +543,7 @@ ul {
 
 .fa-phone:before {
   content: "\f095";
-  color: #ffffff;
+  color: #016b9a;
 }
 
 .fa-envelope-open:before {
@@ -561,6 +566,7 @@ ul {
 
 .fltRight {
   float: right !important;
+  display: flex;
 }
 
 section.sliderMain {
@@ -773,4 +779,158 @@ ol {
 
   font-size: 17px;
   font-weight: 500;
+}
+
+.thirdparty-text {
+  font-family: "PT Sans", sans-serif;
+  color: #184363;
+  font-size: 24px;
+  margin-top: 0px !important;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 49px;
+}
+
+.thirdParty-card {
+  padding-block: 80px !important;
+  /* padding-top: 48px !important; */
+  /* padding-bottom: 144px !important; */
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-image: url(../images/row_big_1.jpg);
+}
+
+.thirdParty-content-card p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.capabilities-manufacturing {
+  font-family: "PT Sans", sans-serif;
+  color: #1dade1;
+  margin-top: 0px !important;
+  font-size: 24px;
+  margin-bottom: 20px !important;
+  font-weight: 700;
+  text-align: center;
+}
+
+.capabilities-manufacturing-card ul, ol {
+line-height: 30px;
+font-family: roboto;
+
+  margin: 0 0 15px 20px;
+}
+.capabilities-manufacturing-card p {
+font-family: roboto;
+font-size: 17px;
+font-weight: 500;
+line-height: 30px;
+margin-top: 10px !important;
+}
+.manufacturingfacilities-card h2{
+  font-family: "PT Sans", sans-serif;
+  color: #1dade1;
+  margin-top: 0px !important;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+.manufacturingfacilities-card p{
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 30px;
+  margin-top: 10px !important;
+}
+.manufacturingfacilities-card ol, li{
+  font-family: roboto;
+  line-height: 30px;
+  margin: 0px !important;
+}
+.basicfacilities-card h2{
+  font-family: "PT Sans", sans-serif;
+  color: #1dade1;
+  margin-top: 0px !important;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+.basicfacilities-card p{
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 10px !important;
+}
+.basicfacilities-card ul, li{
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 10px !important;
+}
+.basicfacilities-card p{
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  margin-top: 10px !important;
+}
+.basicfacilities-card ul, li{
+  font-family: roboto;
+  line-height: 30px;
+
+  margin: 0 0 15px 20px;
+}
+.Association-productive-card h2{
+  font-family: "PT Sans", sans-serif;
+  color: #1dade1;
+  margin-top: 0px !important;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+.Association-productive-card ul, li{
+  line-height: 30px;
+  font-family: roboto;
+
+    margin: 0 0 15px 20px;
+}
+.Association-productive-card p{
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 30px;
+  margin-top: 10px !important;
+}
+.manufacturing-process-card h2{
+  color: #1dade1;
+  margin-top: 0px !important;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+.manufacturing-process-card p{
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 30px;
+  margin-top: 10px !important;
+}
+.manufacturing-process-card ul, li{
+  line-height: 30px;
+  font-family: roboto;
+
+    margin: 0 0 15px 20px;
 }
